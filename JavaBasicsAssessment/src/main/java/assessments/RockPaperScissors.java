@@ -1,7 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+*Below is a console application  for Rock, Paper, Scissors game
+*Each player chooses Rock, Paper, or Scissors.(It will be user and computer in this application)
+* If both players choose the same thing, the round is a tie.
+* Otherwise:
+        Paper wraps Rock to win
+        Scissors cut Paper to win
+        Rock breaks Scissors to win
  */
 package assessments;
 
@@ -57,6 +61,7 @@ public class RockPaperScissors {
 		//Below loop is to iterate over number of rounds entered by user	
 		for (int round = 1; round <= numberOfRounds; round++)
 			{
+                            System.out.println("******** Round : "+ round + "*****************" );
 				System.out.println("Choose an option from below 1/2/3");
 				System.out.println("1 : Rock");
 				System.out.println("2 : Paper");
